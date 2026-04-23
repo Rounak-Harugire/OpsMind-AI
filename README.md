@@ -80,18 +80,20 @@ docker-compose up --build
 opsmind-ai/
 ├── backend/
 │   ├── src/
-│   │   ├── controllers/   # Request handlers for Auth, Chat, and Files
-│   │   ├── models/        # Mongoose Schemas (User, DocumentChunks)
-│   │   ├── services/      # Gemini AI & MongoDB Vector Logic
-│   │   └── server.js      # API Entry point
-│   └── Dockerfile
+│   │   ├── controllers/   # Logic for Upload, Chat, and Auth
+│   │   ├── models/        # MongoDB Schemas (User, DocumentChunk)
+│   │   ├── services/      # AI Embedding and Streaming Logic
+│   │   └── server.js      # Main Express App
+│   ├── Dockerfile
+│   └── package.json
 ├── frontend/
 │   ├── src/
-│   │   ├── components/    # Landing, Auth, ChatArea, Sidebar
-│   │   ├── App.jsx        # View-state management
-│   │   └── index.css      # Tailwind v4 globals & custom animations
-│   └── Dockerfile
-└── docker-compose.yml     # Container orchestration
+│   │   ├── components/    # Header, Sidebar, ChatArea, AuthModal
+│   │   ├── App.jsx        # Global State Management
+│   │   └── index.css      # Tailwind Directives & Custom Scrollbar
+│   ├── Dockerfile
+│   └── package.json
+└── docker-compose.yml     # Orchestrates Frontend and Backend
 \\\
 
 ---
