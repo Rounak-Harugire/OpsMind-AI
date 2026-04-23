@@ -1,4 +1,4 @@
-# ? OpsMind AI: Intelligent RAG-Powered Document Assistant ??
+﻿# ✦ OpsMind AI: Intelligent RAG-Powered Document Assistant 🚀
 
 OpsMind AI is a premium, full-stack Enterprise Intelligence platform that transforms static organizational knowledge into an interactive, context-aware digital assistant. Leveraging **Retrieval-Augmented Generation (RAG)**, it enables users to query complex PDF documents and receive accurate answers backed by verifiable source citations.
 
@@ -6,7 +6,7 @@ Developed by **Rounak Harugire** | Final Year B.Tech (AI & ML) | D.K.T.E Society
 
 ---
 
-## ?? The RAG Architecture
+## 🧠 The RAG Architecture
 OpsMind AI utilizes a state-of-the-art data pipeline to eliminate AI hallucinations and ensure data grounding:
 
 1. **Intelligent Ingestion:** Raw PDF data is parsed using \pdf-parse\ and cleaned for processing.
@@ -17,14 +17,14 @@ OpsMind AI utilizes a state-of-the-art data pipeline to eliminate AI hallucinati
 
 ---
 
-## ? Premium Feature Set
+## ✨ Premium Feature Set
 
-### ??? High-End UI/UX
+### 🖥️ High-End UI/UX
 - **Glassmorphic Design:** A modern, centered Landing Page with backdrop-blur effects and gradient accents.
 - **Unified Auth Flow:** A sleek, centered Authentication system (Login/Signup) with real-time validation.
 - **Floating Command Center:** A ChatGPT-inspired chatbox with auto-expanding textareas and integrated file upload badges.
 
-### ?? Core Functionality
+### ⚙️ Core Functionality
 - **Real-Time Streaming (SSE):** Experience "thinking" in real-time with letter-by-letter response streaming.
 - **Deep Analysis Mode:** Visual pulsing progress indicators that distinguish between vector retrieval and AI synthesis.
 - **Document Persistence:** Securely manage uploaded documents with automated metadata extraction.
@@ -32,7 +32,7 @@ OpsMind AI utilizes a state-of-the-art data pipeline to eliminate AI hallucinati
 
 ---
 
-## ??? Tech Stack & Prerequisites
+## 🛠️ Tech Stack & Prerequisites
 
 ### **Tech Stack**
 - **Frontend:** React 18 (Vite), Tailwind CSS v4, Axios, Lucide Icons, React Markdown.
@@ -43,7 +43,7 @@ OpsMind AI utilizes a state-of-the-art data pipeline to eliminate AI hallucinati
 
 ---
 
-## ?? Installation & Deployment
+## ⚙️ Installation & Deployment
 
 ### 1. Environment Configuration
 Create a \.env\ file in the \ackend/\ directory with the following variables:
@@ -75,28 +75,28 @@ docker-compose up --build
 
 ---
 
-## ?? Project Structure
+## 📂 Project Structure
 \\\	ext
 opsmind-ai/
-+-- backend/
-�   +-- src/
-�   �   +-- controllers/   # Request handlers for Auth, Chat, and Files
-�   �   +-- models/        # Mongoose Schemas (User, DocumentChunks)
-�   �   +-- services/      # Gemini AI & MongoDB Vector Logic
-�   �   +-- server.js      # API Entry point
-�   +-- Dockerfile
-+-- frontend/
-�   +-- src/
-�   �   +-- components/    # Landing, Auth, ChatArea, Sidebar
-�   �   +-- App.jsx        # View-state management
-�   �   +-- index.css      # Tailwind v4 globals & custom animations
-�   +-- Dockerfile
-+-- docker-compose.yml     # Container orchestration
+├── backend/
+│   ├── src/
+│   │   ├── controllers/   # Request handlers for Auth, Chat, and Files
+│   │   ├── models/        # Mongoose Schemas (User, DocumentChunks)
+│   │   ├── services/      # Gemini AI & MongoDB Vector Logic
+│   │   └── server.js      # API Entry point
+│   └── Dockerfile
+├── frontend/
+│   ├── src/
+│   │   ├── components/    # Landing, Auth, ChatArea, Sidebar
+│   │   ├── App.jsx        # View-state management
+│   │   └── index.css      # Tailwind v4 globals & custom animations
+│   └── Dockerfile
+└── docker-compose.yml     # Container orchestration
 \\\
 
 ---
 
-## ?? Support & Contribution
+## 🤝 Support & Contribution
 This project was built as a demonstration of modern AI integration in enterprise workflows. 
 
-Built with ?? by Rounak Harugire.
+Built with ❤️ by Rounak Harugire.
